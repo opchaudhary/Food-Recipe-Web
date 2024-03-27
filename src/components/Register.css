@@ -1,0 +1,59 @@
+ 
+  .register-container {
+    margin: auto;
+    max-width: 200px;
+    padding: 70px;
+    border-radius: 40px;
+    background-color: rgba(80, 77, 77, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  form{
+    display: auto;
+  }
+
+  label {
+    margin-bottom: 6px;
+    font-size: 0.9em;
+   
+  }
+  
+  input {
+    display: table-caption;
+    padding: 4px;
+    margin-bottom: 7px;
+    border: 4px solid #ced4da;
+    border-radius: 30px;
+    box-sizing: border-box;
+  
+  }
+  
+  button {
+    background-color: #831c60;
+    display: flow;
+    padding: 8px;
+    margin-bottom: 0px;
+    border: 1px solid #ced4da;
+    border-radius: 59px;color: #fff;
+    
+
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 10px;
+ 
+  }
+  
+  a {
+  
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

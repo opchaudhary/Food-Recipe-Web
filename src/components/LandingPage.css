@@ -1,0 +1,66 @@
+/* LandingPage.css */
+body {
+    color: white;
+    margin: 0;
+    padding: 0;
+    background: url('../img/12.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+
+header {
+  
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 45PX;
+    color: #f3f7fc;
+  }
+   
+  h2 {
+    font-size: 25PX;
+    color: #1274ec;
+    margin: AUTO;
+  }
+  /* Section styles */
+  section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+  }
+  
+  /* Paragraph content styles */
+  .para-content {
+    background-color: rgba(26, 25, 25, 0.8); /* Background color with opacity */
+  backdrop-filter: blur(15px); /* Blur effect */
+    max-width: 650px;
+    color: #f3f7fc;
+    margin: auto;
+
+  }
+  
+  /* Image container styles */
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  p{
+    color: beige;
+    font-size: 20PX;
+    
+
+  }
+  /* Link styles */
+  h2 a {
+    color: #e3ebf3;
+    margin-left: 5px;
+  }
+  
+  h2 a:hover {
+    text-decoration: underline;
+  }
+  
