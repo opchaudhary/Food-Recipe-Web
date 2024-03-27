@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# Food-Recipe application
+"Welcome to our Food Recipe Project, where culinary enthusiasts can explore an extensive collection of delicious recipes from around the world. Our platform offers a diverse range of recipes catering to various tastes, dietary preferences, and cooking skill levels. Whether you're a seasoned chef or just starting your culinary journey, you'll find inspiration and guidance to create mouthwatering dishes that delight the senses. Join our vibrant community of food lovers, share your own recipes, discover new culinary techniques, and embark on a flavorful adventure with us!"       
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
 
-## Available Scripts
+- [Project Overview](#project-overview)
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Directory Structure](#directory-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
 
-In the project directory, you can run:
 
-### `npm start`
+## Project Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The Food Recipe App is a web application designed to help users discover, explore, and save recipes based on their preferences. It provides a user-friendly interface where users can search for recipes, view details including ingredients and instructions, mark recipes as favorites, and keep track of their search history. Here's an overview of the main features.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Recipe Search: Users can search for recipes using keywords such as ingredients, dish names, or dietary preferences. The app fetches relevant recipes from an external API and displays them in a visually appealing manner.
 
-### `npm test`
+Recipe Details: Upon selecting a recipe, users can view detailed information about it, including a high-quality image, list of ingredients, cooking instructions, total preparation time, and serving size.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Favorite Recipes: Users can mark recipes as favorites to save them for later reference. Favorited recipes are stored locally or on a server, allowing users to access them from any device.
 
-### `npm run build`
+Search History: The app maintains a search history, allowing users to quickly revisit previous searches. Users can click on past searches to instantly retrieve relevant recipes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Responsive Design: The app is designed to be responsive and accessible across various devices, including desktops, tablets, and smartphones. The layout adjusts dynamically to different screen sizes, providing an optimal viewing experience.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Prerequisites
 
-### `npm run eject`
+- Node.js
+- npm (Node Package Manager)
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Clone the repository:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```bash
+    git clone https://github.com/opchaudhary/Food-Recipe-Web.git
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. **Navigate to the project directory:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    ```bash
+    cd PG-Retest/food-recipe
+    ```
 
-## Learn More
+3. **Install dependencies:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    ```bash
+    npm install
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. **Run the application:**
 
-### Code Splitting
+    ```bash
+    npm start
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    The app will be accessible at localhost:3000
 
-### Analyzing the Bundle Size
+## Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. **Fetch data of food recipe:**
+   - View food recipe data.
 
-### Making a Progressive Web App
+2. **Customizable Dashboard:**
+   - Fetch a particular on basis of ingredient or recipename
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+3. **User Authentication:**
+   - Log in to access personalized features.
 
-### Advanced Configuration
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+List the key technologies or frameworks used in your project.
+- React.js
+- Node.js
+- FOOD-recipe api (https://api.edamam.com/api/recipes/v2)
 
-### Deployment
+## Directory Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- `img/` : image used into code
+- `screenshots/` : to store screenshots
